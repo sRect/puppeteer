@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "save": "node jj"
+  },
   "dependencies": {
-    "puppeteer": "^2.1.0"
+    "chalk": "4.1.2",
+    "html-to-md": "^0.5.3",
+    "puppeteer": "^13.0.1"
   }
 }
